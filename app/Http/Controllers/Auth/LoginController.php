@@ -35,6 +35,18 @@ class LoginController extends Controller
         elseif (Auth::check() && Auth::user()->role_id == '2') {
             return('/sales');
         }
+        elseif (Auth::check() && Auth::user()->role_id == '3') {
+            return('/store');
+        }
+        elseif (Auth::check() && Auth::user()->role_id == '4') {
+            return('/finance');
+        }
+        elseif (Auth::check() && Auth::user()->role_id == '5') {
+            return('/HRM');
+        }
+        elseif (Auth::check() && Auth::user()->role_id == '6') {
+            return('/customer');
+        }
         else {
             return('/home');
         }

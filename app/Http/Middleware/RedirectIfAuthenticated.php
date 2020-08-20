@@ -24,10 +24,35 @@ class RedirectIfAuthenticated
 
         } elseif (Auth::guard($guard)->check() && Auth::user()->role->id==2) {
 
-            return view('user.dashboard');
+            return view('sales.dashboard');
 
 
         }
+        elseif (Auth::guard($guard)->check() && Auth::user()->role->id==3) {
+
+            return view('store.store_dashboard');
+
+
+        }
+        elseif (Auth::guard($guard)->check() && Auth::user()->role->id==4) {
+
+            return view('finance.finance_dashboard');
+
+
+        }
+        elseif (Auth::guard($guard)->check() && Auth::user()->role->id==5) {
+
+            return view('HRM.hrm_dashboard');
+
+
+        }
+        elseif (Auth::guard($guard)->check() && Auth::user()->role->id==6) {
+
+            return view('customer.dashboard');
+
+
+        }
+
         else {
             return $next($request);
         }

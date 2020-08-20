@@ -39,7 +39,7 @@
     <div class="page-wrapper">
         <!-- HEADER DESKTOP-->
         <header class="header-desktop3 d-none d-lg-block">
-            <div class="section__content section__content--p35">
+            <div class="section__content section__content--p10">
                 <div class="header3-wrap">
                     <div class="header__logo">
                         <a href="#">
@@ -68,20 +68,85 @@
                                     </li>
                                 </ul>
                             </li>
+
                             <li>
-                                <a href="#">
-                                    <i class="fas fa-shopping-basket"></i>
-                                    <span class="bot-line"></span>eCommerce</a>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Customer</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Product</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Supplier</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Purchase</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Accounts</a>
+                            </li>
+
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Stock</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Reports</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Purchase</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Bank</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>HRM</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Expense</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Role Permission</a>
+                            </li>
+                            <li>
+                                <a href="chart.html">
+                                    <i class="fas fa-chart-bar"></i>Software Settings</a>
                             </li>
                             <li>
                                 <a href="table.html">
                                     <i class="fas fa-trophy"></i>
-                                    <span class="bot-line"></span>Features</a>
+                                    <span class="bot-line"></span>Suppliers</a>
                             </li>
                             <li class="has-sub">
                                 <a href="#">
                                     <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span>Pages</a>
+                                    <span class="bot-line"></span> Purchase Orders</a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="login.html">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="register.html">Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="forget-pass.html">Forget Password</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-copy"></i>
+                                    <span class="bot-line"></span> Inven</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
                                         <a href="login.html">Login</a>
@@ -97,7 +162,7 @@
                             <li class="has-sub">
                                 <a href="#">
                                     <i class="fas fa-desktop"></i>
-                                    <span class="bot-line"></span>UI Elements</a>
+                                    <span class="bot-line"></span>Inventory</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
                                         <a href="button.html">Button</a>

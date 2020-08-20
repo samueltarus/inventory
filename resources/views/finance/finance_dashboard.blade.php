@@ -1,4 +1,4 @@
-@extends('admin.admin_layouts')
+@extends('finance.finance_layouts')
 
 @section('content')
 <section class="au-breadcrumb2">
