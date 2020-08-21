@@ -42,7 +42,7 @@ class FinanceMiddleware
             return redirect('/cutomer');
         }
         else {
-            return redirect('/home');
+            return redirect('/login');
         }
     }
 

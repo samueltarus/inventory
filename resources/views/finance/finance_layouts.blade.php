@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Finance Management</title>
+    <title>Finance  Management</title>
 
      <!-- Fontfaces CSS-->
      <link href="{{asset('backened/css/font-face.css" rel="stylesheet')}}" media="all">
@@ -50,7 +50,7 @@
                         <ul class="list-unstyled">
                             <li class="has-sub">
                                 <a href="#">
-                                    <i class="fas fa-tachometer-alt"></i> Finance Dashboard
+                                    <i class="fas fa-tachometer-alt"></i>Dashboard
                                     <span class="bot-line"></span>
                                 </a>
                                 <ul class="header3-sub-list list-unstyled">
@@ -68,137 +68,100 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Accounts
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Create Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Manage Accounts</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Payments</a>
+                                    </li>
+                                    <li>
+                                        <a href="index4.html">Receipt</a>
+                                    </li>
+                                    <li>
+                                        <a href="index4.html">Manage Transaction</a>
+                                    </li>
+                                    <li>
+                                        <a href="index4.html">Closing</a>
+                                    </li>
 
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Customer</a>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Product</a>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Accounts Reports
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Daily Summary</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Daily Cashflow</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Closing Report</a>
+                                    </li>
+
+
+                                </ul>
                             </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Supplier</a>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i> Reports
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Purchase Reports</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Sales Report(product Wise)</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Profit Report(Invoice Wise)</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Todays Report</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Sales Report</a>
+                                    </li>
+
+                                </ul>
                             </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Purchase</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Accounts</a>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Expenses
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Expense Item</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Add Expense</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Manage Expense</a>
+                                    </li>
+                                    <li>
+                                        <a href="index4.html">Expense Statement</a>
+                                    </li>
+
+
+                                </ul>
                             </li>
 
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Stock</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Reports</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Purchase</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Bank</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>HRM</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Expense</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Role Permission</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Software Settings</a>
-                            </li>
-                            <li>
-                                <a href="table.html">
-                                    <i class="fas fa-trophy"></i>
-                                    <span class="bot-line"></span>Suppliers</a>
-                            </li>
-                            <li class="has-sub">
-                                <a href="#">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span> Purchase Orders</a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                        <a href="login.html">Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="register.html">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="forget-pass.html">Forget Password</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-sub">
-                                <a href="#">
-                                    <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span> Inven</a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                        <a href="login.html">Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="register.html">Register</a>
-                                    </li>
-                                    <li>
-                                        <a href="forget-pass.html">Forget Password</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-sub">
-                                <a href="#">
-                                    <i class="fas fa-desktop"></i>
-                                    <span class="bot-line"></span>Inventory</a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                        <a href="button.html">Button</a>
-                                    </li>
-                                    <li>
-                                        <a href="badge.html">Badges</a>
-                                    </li>
-                                    <li>
-                                        <a href="tab.html">Tabs</a>
-                                    </li>
-                                    <li>
-                                        <a href="card.html">Cards</a>
-                                    </li>
-                                    <li>
-                                        <a href="alert.html">Alerts</a>
-                                    </li>
-                                    <li>
-                                        <a href="progress-bar.html">Progress Bars</a>
-                                    </li>
-                                    <li>
-                                        <a href="modal.html">Modals</a>
-                                    </li>
-                                    <li>
-                                        <a href="switch.html">Switchs</a>
-                                    </li>
-                                    <li>
-                                        <a href="grid.html">Grids</a>
-                                    </li>
-                                    <li>
-                                        <a href="fontawesome.html">FontAwesome</a>
-                                    </li>
-                                    <li>
-                                        <a href="typo.html">Typography</a>
-                                    </li>
-                                </ul>
-                            </li>
+
                         </ul>
                     </div>
                     <div class="header__tool">
@@ -283,7 +246,7 @@
                                     <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                 </div>
                                 <div class="content">
-                                    <a class="js-acc-btn" href="#">john doe</a>
+                                <a class="js-acc-btn" href="#">{{ Auth::user()->email }}</a>
                                 </div>
                                 <div class="account-dropdown js-dropdown">
                                     <div class="info clearfix">
@@ -294,9 +257,9 @@
                                         </div>
                                         <div class="content">
                                             <h5 class="name">
-                                                <a href="#">john doe</a>
+                                                <a href="#">{{ Auth::user()->name }}</a>
                                             </h5>
-                                            <span class="email">johndoe@example.com</span>
+                                            <span class="email">{{ Auth::user()->email }}</span>
                                         </div>
                                     </div>
                                     <div class="account-dropdown__body">

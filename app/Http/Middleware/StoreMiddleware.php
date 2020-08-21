@@ -44,7 +44,7 @@ class  StoreMiddleware
             return redirect('/customer');
         }
         else {
-            return redirect('/home');
+            return redirect('/login');
         }
     }
 }

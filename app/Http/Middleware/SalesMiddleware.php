@@ -26,7 +26,7 @@ class SalesMiddleware
             return redirect('/admin');
         }
         else {
-           return redirect('/home');
+           return redirect('/login');
         }
     }
 }

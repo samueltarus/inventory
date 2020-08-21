@@ -2689,9 +2689,6 @@ section {
 
 .header__navbar ul li a {
     display: block;
-    font-size: 14px;
-    color: #ccc;
-    padding: 25px 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.102);
 }
 

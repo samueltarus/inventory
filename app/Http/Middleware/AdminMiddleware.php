@@ -28,7 +28,7 @@ class  AdminMiddleware
             return redirect('/sales');
         }
         else {
-            return redirect('/home');
+            return redirect('/login');
         }
     }
 }

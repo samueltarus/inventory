@@ -42,7 +42,7 @@ class HrMiddleware
             return redirect('/customer');
         }
         else {
-            return redirect('/home');
+            return redirect('/login');
         }
     }
 }
