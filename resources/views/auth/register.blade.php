@@ -50,20 +50,20 @@
                               @csrf
                                 <div class="form-group">
                                     <label for="name">Username</label>
-                                    <input  id="name" name="name" value="{{ old('name') }}" class="au-input au-input--full" type="text" name="name" placeholder="username">
+                                    <input  id="name" name="name" value="{{ old('name') }}" class="au-input au-input--full" type="text" name="name" placeholder="username" required
                                 </div>
 
                                 <div class="form-group">
                                     <label for="email">Email Address</label>
-                                    <input  id="email" name="email" value="{{ old('email') }}" class="au-input au-input--full" type="email" name="email" placeholder="Email">
+                                    <input  id="email" name="email" value="{{ old('email') }}" class="au-input au-input--full" type="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
-                                    <input  id="password"  class="au-input au-input--full" type="password" name="password" placeholder="Password">
+                                    <input  id="password"  class="au-input au-input--full" type="password" name="password" placeholder="Password" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="password-confirm">Password</label>
-                                    <input  id="password-confirm"  class="au-input au-input--full" type="password" name="password_confirmation" placeholder="Password">
+                                    <input  id="password-confirm"  class="au-input au-input--full" type="password" name="password_confirmation" placeholder="Password" required>
                                 </div>
 
                                <!--  <div class="login-checkbox">

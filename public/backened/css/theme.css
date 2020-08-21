@@ -1445,7 +1445,7 @@ section {
 }
 
 .account-dropdown {
-    min-width: 305px;
+    min-width: 300px;
     position: absolute;
     top: 58px;
     right: 0;
@@ -2658,7 +2658,7 @@ section {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
-    z-index: 3;
+    z-index: 2;
 }
 
 .header__navbar ul {
@@ -2689,7 +2689,7 @@ section {
 
 .header__navbar ul li a {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     color: #ccc;
     padding: 25px 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.102);
@@ -2718,7 +2718,7 @@ section {
 
 @media (max-width: 1570px) and (min-width: 992px) {
     .header__navbar ul li a {
-        padding: 25px 15px;
+        padding: 20px 20px;
     }
 }
 
