@@ -70,12 +70,12 @@
                             </li>
 
                             <li class="has-sub">
-                                <a href="#">
+                                <a href="{{url('add-employee')}}">
                                     <i class="fas fa-copy"></i>
                                     <span class="bot-line"></span> Employee Details</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
-                                        <a href="login.html">Add Single Employee</a>
+                                        <a href="{{url('add-employee')}}">Add Single Employee</a>
                                     </li>
                                     <li>
                                         <a href="register.html">Upload Batch Employees</a>

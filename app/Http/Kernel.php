@@ -6,7 +6,7 @@ use App\Http\Middleware\AdminMiddleware;
 use App\Http\Middleware\CustomersMiddleware;
 use App\Http\Middleware\FinanceMiddleware;
 use App\Http\Middleware\HrMiddleware;
-use App\Http\StoreMiddleware\StoreMiddleware;
+use App\Http\Middleware\StoreMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel

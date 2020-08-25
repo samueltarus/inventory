@@ -50,7 +50,7 @@
                               @csrf
                                 <div class="form-group">
                                     <label for="name">Username</label>
-                                    <input  id="name" name="name" value="{{ old('name') }}" class="au-input au-input--full" type="text" name="name" placeholder="username" required
+                                    <input  id="name" name="name" value="{{ old('name') }}" class="au-input au-input--full" type="text" name="name" placeholder="username" required>
                                 </div>
 
                                 <div class="form-group">

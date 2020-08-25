@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\StoreMiddleware;
+namespace App\Http\Middleware;
 
 use App\Providers\RouteServiceProvider;
 use Closure;
@@ -22,26 +22,34 @@ class  StoreMiddleware
     {
         if (Auth::check() && Auth::user()->role_id == '3') {
             return $next($request);
+
         }
          elseif (Auth::check() && Auth::user()->role_id == '1') {
+
 
             return redirect('/admin');
         }
         elseif (Auth::check() && Auth::user()->role_id == '2') {
 
+
             return redirect('/sales');
         }
         elseif (Auth::check() && Auth::user()->role_id == '4') {
+
 
             return redirect('/finance');
         }
         elseif (Auth::check() && Auth::user()->role_id == '5') {
 
+
             return redirect('/HRM');
         }
         elseif (Auth::check() && Auth::user()->role_id == '6') {
 
+
             return redirect('/customer');
+
+            
         }
         else {
             return redirect('/login');

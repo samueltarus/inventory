@@ -10,10 +10,10 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Sales Management</title>
+    <title>Dashboard 3</title>
 
      <!-- Fontfaces CSS-->
-     <link href="{{asset('backened/css/font-face.css" rel="stylesheet')}}" media="all">
+     <link href="{{asset('backened/css/font-face.css')}}" rel="stylesheet" media="all">
      <link href="{{asset('backened/vendor/font-awesome-4.7/css/font-awesome.min.css')}}" rel="stylesheet" media="all">
      <link href="{{asset('backened/vendor/font-awesome-5/css/fontawesome-all.min.css')}}" rel="stylesheet" media="all">
      <link href="{{asset('backened/vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
@@ -22,16 +22,17 @@
      <link href="{{asset('backened/vendor/bootstrap-4.1/bootstrap.min.css')}}" rel="stylesheet" media="all">
 
      <!-- Vendor CSS-->
-     <link href="{{asset('backened/vendor/animsition/animsition.min.css" rel="stylesheet')}}" media="all">
+     <link href="{{asset('backened/vendor/animsition/animsition.min.css')}}" rel="stylesheet" media="all">
      <link href="{{asset('backened/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet" media="all">
-     <link href="{{asset('backened/vendor/wow/animate.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/slick/slick.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/select2/select2.min.css" rel="stylesheet')}}" media="all">
+     <link href="{{asset('backened/vendor/wow/animate.css')}}" rel="stylesheet" media="all">
+     <link href="{{asset('backened/vendor/css-hamburgers/hamburgers.min.css ')}}" rel="stylesheet" media="all">
+     <link href="{{asset('backened/vendor/slick/slick.css')}}" rel="stylesheet" media="all">
+     <link href="{{asset('backened/vendor/select2/select2.min.css')}}" rel="stylesheet" media="all">
      <link href="{{asset('backened/vendor/perfect-scrollbar/perfect-scrollbar.css')}}" rel="stylesheet" media="all">
 
      <!-- Main CSS-->
      <link href="{{asset('backened/css/theme.css')}}" rel="stylesheet" media="all">
+
 
 </head>
 
@@ -39,7 +40,7 @@
     <div class="page-wrapper">
         <!-- HEADER DESKTOP-->
         <header class="header-desktop3 d-none d-lg-block">
-            <div class="section__content section__content--p10">
+            <div class="section__content section__content--p35">
                 <div class="header3-wrap">
                     <div class="header__logo">
                         <a href="#">
@@ -49,58 +50,62 @@
                     <div class="header__navbar">
                         <ul class="list-unstyled">
                             <li class="has-sub">
+                            <a href="{{url('store')}}">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <span class="bot-line"></span>Dashboard
+                                </a>
+
+                            </li>
+                            <li class="has-sub">
                                 <a href="#">
-                                    <i class="fas fa-tachometer-alt"></i>Dashboard
+                                    <i class="fas fa-tachometer-alt"></i>Products
                                     <span class="bot-line"></span>
                                 </a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
-                                        <a href="index.html">Dashboard 1</a>
+                                    <a href="{{url('all-products')}}">View Product</a>
                                     </li>
                                     <li>
-                                        <a href="index2.html">Dashboard 2</a>
+                                        <a href="{{url('add-product')}}">Add Product</a>
                                     </li>
-                                    <li>
-                                        <a href="index3.html">Dashboard 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Dashboard 4</a>
-                                    </li>
+
                                 </ul>
                             </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Category
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="{{url('all-categories')}}">View Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('add-category')}}">Add Category</a>
+                                    </li>
 
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Customer</a>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Product</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Supplier</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Purchase</a>
-                            </li>
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Accounts</a>
-                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Supplier
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="{{url('all-suppliers')}}">View Supplier</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ url('add-supplier')}}">Add Supplier</a>
+                                    </li>
 
-                            <li>
-                                <a href="chart.html">
-                                    <i class="fas fa-chart-bar"></i>Stock</a>
+                                </ul>
                             </li>
-
-
 
                             <li class="has-sub">
                                 <a href="#">
                                     <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span> Purchase Orders</a>
+                                    <span class="bot-line"></span>Reports</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
                                         <a href="login.html">Login</a>
@@ -155,50 +160,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header-button-item js-item-menu">
-                            <i class="zmdi zmdi-settings"></i>
-                            <div class="setting-dropdown js-dropdown">
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-account"></i>Account</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-settings"></i>Setting</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                    </div>
-                                </div>
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-globe"></i>Language</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-pin"></i>Location</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-email"></i>Email</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="account-wrap">
                             <div class="account-item account-item--style2 clearfix js-item-menu">
                                 <div class="image">
                                     <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                 </div>
                                 <div class="content">
-                                <a class="js-acc-btn" href="#">{{ Auth::user()->email }}</a>
+                                    <a class="js-acc-btn" href="#">{{ Auth::user()->email }}</a>
                                 </div>
                                 <div class="account-dropdown js-dropdown">
                                     <div class="info clearfix">
@@ -403,43 +372,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-button-item js-item-menu">
-                    <i class="zmdi zmdi-settings"></i>
-                    <div class="setting-dropdown js-dropdown">
-                        <div class="account-dropdown__body">
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-account"></i>Account</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-settings"></i>Setting</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-money-box"></i>Billing</a>
-                            </div>
-                        </div>
-                        <div class="account-dropdown__body">
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-globe"></i>Language</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-pin"></i>Location</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-email"></i>Email</a>
-                            </div>
-                            <div class="account-dropdown__item">
-                                <a href="#">
-                                    <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="account-wrap">
                     <div class="account-item account-item--style2 clearfix js-item-menu">
                         <div class="image">
@@ -485,17 +418,12 @@
                 </div>
             </div>
         </div>
-        <!-- END HEADER MOBILE -->
-
-        <!-- PAGE CONTENT-->
-        <div class="page-content--bgf7">
-            <!-- BREADCRUMB-->
-         @yield('content')
-            <!-- END COPYRIGHT-->
+        <div>
+            @yield('content')
         </div>
 
-    </div>
 
+    </div>
     <!-- Jquery JS-->
     <script src="{{asset('backened/vendor/jquery-3.2.1.min.js')}}"></script>
     <!-- Bootstrap JS-->
@@ -519,6 +447,7 @@
 
     <!-- Main JS-->
     <script src="{{asset('backened/js/main.js')}}"></script>
+
 
 </body>
 

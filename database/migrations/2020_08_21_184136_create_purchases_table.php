@@ -17,7 +17,7 @@ class CreatePurchasesTable extends Migration
         Schema::create('purchases', function (Blueprint $table) {
             $table->bigIncrements('purchase_id');
             $table->unsignedBigInteger('supplier_id');
-            $table->foreign('supplier_id')->references('category_id')->on('suppliers')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('supplier_id')->references('supplier_id')->on('suppliers')->onDelete('cascade')->onUpdate('cascade');
             $table->integer('purchase_number');
             $table->date('purchase_date');
             $table->string('purchase_details');
