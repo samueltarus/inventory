@@ -1,4 +1,5 @@
 @extends('store.store_layouts')
+
 @section('content')
 
 <div class="main-content">
@@ -7,11 +8,11 @@
             <div class="table-title">
 				<div class="row">
 					<div class="col-sm-6">
-						<h2>Manage <b>Product</b></h2>
+						<h2>All <b>Reports</b></h2>
 					</div>
 					<div class="col-sm-6">
-                    <a href="{{url('add-product')}}" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Add Product</span></a>
-						<a href="{{url('all-categories')}}" class="btn btn-danger" ><i class="material-icons">&#xE15C;</i> <span>Manage Category</span></a>
+                    <a href="{{url('create-report')}}" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Create Report</span></a>
+						<a href="{{url('all-categories')}}" class="btn btn-danger" ><i class="material-icons">&#xE15C;</i> <span>Export to Excel</span></a>
 					</div>
 				</div>
 			</div>
@@ -22,14 +23,14 @@
                         <table class="table table-borderless table-striped table-earning">
                             <thead>
                                 <tr>
-                                    <th>Product Name</th>
-                                    <th>Product Details</th>
-                                    <th> Product Category</th>
-                                    <th >Product Per Carton</th>
-                                    <th>Sell Price</th>
-                                    <th >Supplier Price</th>
-                                    <th>Product Model</th>
-                                    <th >Supplier Name</th>
+                                    <th>Product Code</th>
+                                    <th>Product name</th>
+                                    <th> Product Invoice</th>
+                                    <th >Product Supplier</th>
+                                    <th>Open</th>
+                                    <th >Issued</th>
+                                    <th>Recieved</th>
+                                    <th >Balance</th>
                                     <th class="text-center">Action</th>
                                 </tr>
                             </thead>

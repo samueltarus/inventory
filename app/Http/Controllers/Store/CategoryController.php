@@ -50,11 +50,12 @@ class CategoryController extends Controller
 
         return Redirect::to('all-categories');
     }
-    public function  delete_category($category_id){
+    public function  delete_category( Request $request,$category_id){
 
 
-        // $Category->delete($category_id);
-        Category::find($category_id)->delete();
+        $category=Category::findOrFail($request->category_id);
+        $category->delete();
+
         return Redirect::to('all-categories');
 
       }

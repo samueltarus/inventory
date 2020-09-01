@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard 3</title>
+    <title>Store Management</title>
 
      <!-- Fontfaces CSS-->
      <link href="{{asset('backened/css/font-face.css')}}" rel="stylesheet" media="all">
@@ -55,6 +55,36 @@
                                     <span class="bot-line"></span>Dashboard
                                 </a>
 
+                            </li>
+                            <li class="has-sub">
+                                <a href="">
+                                    <i class="fas fa-tachometer-alt"></i>Products Issuing
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                    <a href="{{url('all-issuing-products')}}">View Issued Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{url('add-product')}}">Add Product</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Orders |Purchase
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                    <a href="{{url('all-orders-products')}}"> View Purchases</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{url('add-product')}}">Make  Product Order</a>
+                                    </li>
+
+                                </ul>
                             </li>
                             <li class="has-sub">
                                 <a href="#">
@@ -103,18 +133,18 @@
                             </li>
 
                             <li class="has-sub">
-                                <a href="#">
+                            <a href="{{url('all-reports')}}">
                                     <i class="fas fa-copy"></i>
-                                    <span class="bot-line"></span>Reports</a>
+                                    <span class="bot-line"></span>Periodic Reports</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
-                                        <a href="login.html">Login</a>
+                                        <a href="{{url('all-reports')}}">Weekly Reports</a>
                                     </li>
                                     <li>
-                                        <a href="register.html">Register</a>
+                                        <a href="{{url('all-reports')}}">Monthly Report</a>
                                     </li>
                                     <li>
-                                        <a href="forget-pass.html">Forget Password</a>
+                                        <a href="{{url('all-reports')}}">Annuallized Report</a>
                                     </li>
                                 </ul>
                             </li>

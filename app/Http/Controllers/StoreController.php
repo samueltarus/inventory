@@ -16,8 +16,6 @@ class StoreController extends Controller
         $suppliers = Supplier::all();
 
 
-
-
         return view('store.store_dashboard',compact('products','suppliers'));
     }
 

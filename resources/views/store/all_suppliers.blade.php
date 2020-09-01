@@ -38,11 +38,12 @@
                                     <td>{{$suppliers->supplier_address}}</td>
                                     <td>{{$suppliers->previous_balance}}</td>
                                     <td class="col-lg-3">
-                                        <button type="button" class="btn btn-warning col-lg-4"><span style="margin-right: 5px" class="fas fa-edit"></span>Edit</button>
+                                        <a href="{{url('/edit-supplier/'.$suppliers->supplier_id)}}" class="btn btn-warning col-lg-4"><span style="margin-right: 5px" class="fas fa-edit"></span>Edit</a>
 
-                                        <button type="button" class="btn btn-info col-lg-4 col-lg-offset-1" ><span style="margin-right: 5px" class="glyphicon glyphicon-align-justify"></span>Details</button>
+                                            <a href="{{url('/edit-supplier/'.$suppliers->supplier_id)}}" class="btn btn-info col-lg-4 col-lg-offset-1" ><span style="margin-right: 5px" class="glyphicon glyphicon-align-justify"></span>Details</a>
 
-                                        <button type="button" class="btn btn-danger col-lg-4 col-lg-offset-1" ><span style="margin-right: 5px" class="far fa-trash-alt"></span>Delete</button>
+                                                <a href="{{url('/delete-supplier/'.$suppliers->supplier_id)}}" class="btn btn-danger col-lg-4 col-lg-offset-1" ><span style="margin-right: 5px" class="far fa-trash-alt"></span>Delete</a>
+
                                     </td>
                                 </tr>
                                 @endforeach
