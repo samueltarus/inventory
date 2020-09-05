@@ -11,7 +11,10 @@
 					</div>
 					<div class="col-sm-6">
                     <a href="{{url('add-category')}}" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Add Product</span></a>
-						<a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Manage Category</span></a>
+                        <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Manage Category</span></a>
+                    <a href="{{ url('supplier-reports') }}" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Export Suppliers</span></a>
+
+
 					</div>
 				</div>
 			</div>

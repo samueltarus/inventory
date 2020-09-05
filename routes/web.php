@@ -57,9 +57,14 @@ Route::get('store','StoreController@dashboard')->middleware('store');
  Route::post('update-supplier/{supplier_id}','Store\SupplierController@update_product');
  Route::get('delete-supplier/{supplier_id}','Store\SupplierController@delete_product');
 
+ Route::get('supplier-reports','Store\SupplierController@suppliers_report');
+
+
+
 
  Route::get('all-reports    ','Store\ReportsController@all_reports');
  Route::get('product-reports','Store\ReportsController@product_reports');
+ Route::get('weekly-reports','Store\ReportsController@weekly_reports');
 
  Route::get('all-orders-products','Store\OrdesController@all_order_products');
 

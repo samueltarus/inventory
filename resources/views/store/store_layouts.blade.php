@@ -44,7 +44,7 @@
                 <div class="header3-wrap">
                     <div class="header__logo">
                         <a href="#">
-                            <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                            <img src="{{ asset('backened/images/icon/logo-white.png')}}" style="width: auto;height:50px" />
                         </a>
                     </div>
                     <div class="header__navbar">
@@ -56,24 +56,10 @@
                                 </a>
 
                             </li>
-                            <li class="has-sub">
-                                <a href="">
-                                    <i class="fas fa-tachometer-alt"></i>Products Issuing
-                                    <span class="bot-line"></span>
-                                </a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                    <a href="{{url('all-issuing-products')}}">View Issued Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{url('add-product')}}">Add Product</a>
-                                    </li>
 
-                                </ul>
-                            </li>
                             <li class="has-sub">
                                 <a href="#">
-                                    <i class="fas fa-tachometer-alt"></i>Orders |Purchase
+                                    <i class="fas fa-tachometer-alt"></i>Orders | Requisition
                                     <span class="bot-line"></span>
                                 </a>
                                 <ul class="header3-sub-list list-unstyled">
@@ -86,6 +72,7 @@
 
                                 </ul>
                             </li>
+
                             <li class="has-sub">
                                 <a href="#">
                                     <i class="fas fa-tachometer-alt"></i>Products
@@ -98,6 +85,12 @@
                                     <li>
                                         <a href="{{url('add-product')}}">Add Product</a>
                                     </li>
+                                    <li>
+                                        <a href="{{url('all-issuing-products')}}">View Issued Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{url('add-product')}}">Add Issue Item</a>
+                                        </li>
 
                                 </ul>
                             </li>
@@ -133,12 +126,12 @@
                             </li>
 
                             <li class="has-sub">
-                            <a href="{{url('all-reports')}}">
+                            <a href="#">
                                     <i class="fas fa-copy"></i>
                                     <span class="bot-line"></span>Periodic Reports</a>
                                 <ul class="header3-sub-list list-unstyled">
                                     <li>
-                                        <a href="{{url('all-reports')}}">Weekly Reports</a>
+                                        <a href="{{url('weekly-reports')}}">Weekly Reports</a>
                                     </li>
                                     <li>
                                         <a href="{{url('all-reports')}}">Monthly Report</a>

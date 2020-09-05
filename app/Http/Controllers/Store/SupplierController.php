@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
-use Barryvdh\DomPDF\PDF;
+// use Barryvdh\DomPDF\PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class SupplierController extends Controller
 {
@@ -84,17 +85,13 @@ class SupplierController extends Controller
     }
 
 
-    public function supplier_reports(){
+    public function suppliers_report (){
 
-            // retreive all records from db
-            $data = Supplier::all();
+        $suppliers = Supplier::all();
+        view()->share('store.all_suppliers_report',$suppliers);
+        $pdf = PDF::loadView('store.all_suppliers_report', compact('suppliers'));
 
-            // share data to view
-            view()->share('employee',$data);
-            $pdf = PDF::loadView('pdf_view', $data);
-
-            // download PDF file with download method
-            return $pdf->download('pdf_file.pdf');
+            return $pdf->download('suppliers.pdf');
     }
 
 }

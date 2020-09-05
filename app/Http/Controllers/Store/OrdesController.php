@@ -3,11 +3,12 @@
 namespace App\Http\Controllers\Store;
 
 use App\Http\Controllers\Controller;
+use App\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
-use Barryvdh\DomPDF\PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 
 class OrdesController extends Controller
 {
@@ -23,7 +24,7 @@ class OrdesController extends Controller
     public function orders_report(){
 
             // retreive all records from db
-            $data = Employee::all();
+            $data = Product::all();
 
             // share data to view
             view()->share('employee',$data);

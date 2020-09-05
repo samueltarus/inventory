@@ -12,26 +12,26 @@
     <!-- Title Page-->
     <title>Finance  Management</title>
 
-     <!-- Fontfaces CSS-->
-     <link href="{{asset('backened/css/font-face.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/font-awesome-4.7/css/font-awesome.min.css')}}" rel="stylesheet" media="all">
-     <link href="{{asset('backened/vendor/font-awesome-5/css/fontawesome-all.min.css')}}" rel="stylesheet" media="all">
-     <link href="{{asset('backened/vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
+    <!-- Fontfaces CSS-->
+    <link href="{{asset('backened/css/font-face.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/font-awesome-4.7/css/font-awesome.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/font-awesome-5/css/fontawesome-all.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/mdi-font/css/material-design-iconic-font.min.css')}}" rel="stylesheet" media="all">
 
-     <!-- Bootstrap CSS-->
-     <link href="{{asset('backened/vendor/bootstrap-4.1/bootstrap.min.css')}}" rel="stylesheet" media="all">
+    <!-- Bootstrap CSS-->
+    <link href="{{asset('backened/vendor/bootstrap-4.1/bootstrap.min.css')}}" rel="stylesheet" media="all">
 
-     <!-- Vendor CSS-->
-     <link href="{{asset('backened/vendor/animsition/animsition.min.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet" media="all">
-     <link href="{{asset('backened/vendor/wow/animate.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/slick/slick.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/select2/select2.min.css" rel="stylesheet')}}" media="all">
-     <link href="{{asset('backened/vendor/perfect-scrollbar/perfect-scrollbar.css')}}" rel="stylesheet" media="all">
+    <!-- Vendor CSS-->
+    <link href="{{asset('backened/vendor/animsition/animsition.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/wow/animate.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/css-hamburgers/hamburgers.min.css ')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/slick/slick.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/select2/select2.min.css')}}" rel="stylesheet" media="all">
+    <link href="{{asset('backened/vendor/perfect-scrollbar/perfect-scrollbar.css')}}" rel="stylesheet" media="all">
 
-     <!-- Main CSS-->
-     <link href="{{asset('backened/css/theme.css')}}" rel="stylesheet" media="all">
+    <!-- Main CSS-->
+    <link href="{{asset('backened/css/theme.css')}}" rel="stylesheet" media="all">
 
 </head>
 
@@ -43,7 +43,7 @@
                 <div class="header3-wrap">
                     <div class="header__logo">
                         <a href="#">
-                            <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                            <img src="images/icon/logo-white.png" style="width: auto;height:50px" />
                         </a>
                     </div>
                     <div class="header__navbar">
@@ -54,18 +54,61 @@
                                     <span class="bot-line"></span>
                                 </a>
                                 <ul class="header3-sub-list list-unstyled">
-                                    <li>
+                                    {{-- <li>
                                         <a href="index.html">Dashboard 1</a>
+                                    </li> --}}
+                                    {{-- <li>
+                                        <a href="index2.html">Dashboard 2</a>
+                                    </li> --}}
+
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Client Invoices
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Create Client</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Receive Payments</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Receivables
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">Other Incomes</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Receive Payments</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Incoming Pay</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Client Statements
+                                    <span class="bot-line"></span>
+                                </a>
+                                <ul class="header3-sub-list list-unstyled">
+                                    <li>
+                                        <a href="index.html">All Statements</a>
                                     </li>
                                     <li>
                                         <a href="index2.html">Dashboard 2</a>
                                     </li>
-                                    <li>
-                                        <a href="index3.html">Dashboard 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Dashboard 4</a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li class="has-sub">
@@ -109,57 +152,27 @@
                                     </li>
                                     <li>
                                         <a href="index3.html">Closing Report</a>
+                                        <li>
+                                            <a href="index.html">Purchase Reports</a>
+                                        </li>
+                                        <li>
+                                            <a href="index2.html">Sales Report(product Wise)</a>
+                                        </li>
+                                        <li>
+                                            <a href="index3.html">Profit Report(Invoice Wise)</a>
+                                        </li>
+                                        <li>
+                                            <a href="index3.html">Todays Report</a>
+                                        </li>
+                                        <li>
+                                            <a href="index3.html">Sales Report</a>
+                                        </li>
                                     </li>
 
 
                                 </ul>
                             </li>
-                            <li class="has-sub">
-                                <a href="#">
-                                    <i class="fas fa-tachometer-alt"></i> Reports
-                                    <span class="bot-line"></span>
-                                </a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                        <a href="index.html">Purchase Reports</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Sales Report(product Wise)</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Profit Report(Invoice Wise)</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Todays Report</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Sales Report</a>
-                                    </li>
 
-                                </ul>
-                            </li>
-                            <li class="has-sub">
-                                <a href="#">
-                                    <i class="fas fa-tachometer-alt"></i>Expenses
-                                    <span class="bot-line"></span>
-                                </a>
-                                <ul class="header3-sub-list list-unstyled">
-                                    <li>
-                                        <a href="index.html">Expense Item</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Add Expense</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Manage Expense</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Expense Statement</a>
-                                    </li>
-
-
-                                </ul>
-                            </li>
 
 
                         </ul>
@@ -203,47 +216,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header-button-item js-item-menu">
-                            <i class="zmdi zmdi-settings"></i>
-                            <div class="setting-dropdown js-dropdown">
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-account"></i>Account</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-settings"></i>Setting</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-money-box"></i>Billing</a>
-                                    </div>
-                                </div>
-                                <div class="account-dropdown__body">
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-globe"></i>Language</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-pin"></i>Location</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-email"></i>Email</a>
-                                    </div>
-                                    <div class="account-dropdown__item">
-                                        <a href="#">
-                                            <i class="zmdi zmdi-notifications"></i>Notifications</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="account-wrap">
                             <div class="account-item account-item--style2 clearfix js-item-menu">
                                 <div class="image">
-                                    <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                    <img src="{{asset('backend/images/icon/avatar-01.jpg')}}"  />
                                 </div>
                                 <div class="content">
                                 <a class="js-acc-btn" href="#">{{ Auth::user()->email }}</a>

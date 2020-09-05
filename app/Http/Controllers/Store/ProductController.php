@@ -141,20 +141,21 @@ class ProductController extends Controller
 
     public function product_reports(){
 
-        // retreive all records from db
-        $data = Product::all();
+        // $products =DB::table('products')
+        // ->join('categories','products.category_id', '=', 'categories.category_id')
+        // ->join('suppliers', 'products.supplier_id', '=', 'suppliers.supplier_id')
+        // ->select('products.*', 'categories.category_name', 'suppliers.supplier_name')
+        // ->get();
+         $products = Product::all();
+          view()->share('store.all_products_reports',$products);
+        $pdf = PDF::loadView('store.all_products_reports', compact('products'));
+        // dd($pdf);
+        // return $pdf->stream('products.pdf');
+        return $pdf->download('products.pdf');
 
-        // share data to view
-        view()->share('products',$data);
-        $pdf = PDF::loadView('all-products', $data);
-
-        // download PDF file with download method
-        return $pdf->download('pdf_file.pdf');
-}
 
 
-
-
+    }
 
 }
 

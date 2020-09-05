@@ -48,7 +48,7 @@ class LoginController extends Controller
             return('/customer');
         }
         else {
-            return('/home');
+            return('/login');
         }
     }
 
